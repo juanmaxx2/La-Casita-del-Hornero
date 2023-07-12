@@ -68,7 +68,7 @@ const PerfilUsuario = ({ countCarrito, setCountCarrito }) => {
         const mensaje = result;
         axios
           .post(
-            `https://las-casitas-del-hornero-back-deploy.up.railway.app/request`,
+            `https://casitasdelhornero.onrender.com/request`,
             { message: mensaje, id_user }
           )
           .then((response) => {
