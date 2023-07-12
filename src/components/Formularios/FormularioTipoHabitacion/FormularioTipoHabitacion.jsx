@@ -11,7 +11,7 @@ import styleLight from "./FormularioTipoHabitacion.module.css";
 import styleDark from "./FormularioTipoHabitacionDark.module.css";
 
 const FormularioTipoHab = (props) => {
-  const URL_BASE = "https://las-casitas-del-hornero-back-deploy.up.railway.app";
+  const URL_BASE = "https://casitasdelhornero.onrender.com";
   const navigate = useNavigate();
   const User = PedirLocalStorage();
   const { state } = useLocation();
