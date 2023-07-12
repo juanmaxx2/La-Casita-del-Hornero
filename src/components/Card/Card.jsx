@@ -19,7 +19,7 @@ function Cards({ id, name, image, province, department, rating, valoration }) {
   const theme = useSelector((state) => state.theme);
   const style = theme === "light" ? styleLight : styleDark;
   const [isFav, setIsFav] = useState(false);
-  const URL_BASE = "https://las-casitas-del-hornero-back-deploy.up.railway.app";
+  const URL_BASE = "https://casitasdelhornero.onrender.com/";
   let ratingArray = Array(rating).fill(rating);
 
   let User = PedirLocalStorage();
