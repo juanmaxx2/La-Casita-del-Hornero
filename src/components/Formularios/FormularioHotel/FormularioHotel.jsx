@@ -41,7 +41,7 @@ const reducer = (state, action) => {
 };
 
 const FormularioHotel = () => {
-  const URL_BASE = "https://las-casitas-del-hornero-back-deploy.up.railway.app";
+  const URL_BASE = "https://casitasdelhornero.onrender.com";
 
   let User = PedirLocalStorage();
   const navigate = useNavigate();
