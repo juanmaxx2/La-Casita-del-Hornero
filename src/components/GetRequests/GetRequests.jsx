@@ -13,7 +13,7 @@ const GetRequests = () => {
     const dispatch = useDispatch()
     const user = PedirLocalStorage();
     const {Users} = useSelector((state) => state);
-    const URL_BASE = "https://las-casitas-del-hornero-back-deploy.up.railway.app";
+    const URL_BASE = "https://casitasdelhornero.onrender.com";
     const  [loading,setLoading] = useState(false)
     
 
