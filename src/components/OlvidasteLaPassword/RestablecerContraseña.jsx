@@ -130,7 +130,7 @@ const RestablecerContraseña = () => {
         console.log(email, password);
 
         await axios.put(
-          `https://las-casitas-del-hornero-back-deploy.up.railway.app/user/password`,
+          `https://casitasdelhornero.onrender.com/user/password`,
           {
             email,
             password,
