@@ -110,7 +110,7 @@ const FormLocal = () => {
           `https://casitasdelhornero.onrender.com/email/Registro/${email}`
         ); //! cambiar en el deploy
         await axios.post(
-          `https://las-casitas-del-hornero-back-deploy.up.railway.app/user`,
+          `https://casitasdelhornero.onrender.com/user`,
           { username, password, email }
         );
 
