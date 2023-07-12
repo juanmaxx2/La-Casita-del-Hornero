@@ -46,16 +46,16 @@ const GetUsers = () => {
   //*---------------------------------FuncionBloque:
   const FuncioBloquear = async (idUser, userEmail, value) => {
     await axios.put(
-      `https://las-casitas-del-hornero-back-deploy.up.railway.app/user/status/${idUser}`
+      `https://casitasdelhornero.onrender.com/user/status/${idUser}`
     );
   
     if (value) {
       await axios.get(
-        `https://las-casitas-del-hornero-back-deploy.up.railway.app/email/Baneo/${userEmail}`
+        `https://casitasdelhornero.onrender.com/email/Baneo/${userEmail}`
       );
     } else {
       await axios.get(
-        `https://las-casitas-del-hornero-back-deploy.up.railway.app/email/Desbaneo/${userEmail}`
+        `https://casitasdelhornero.onrender.com/email/Desbaneo/${userEmail}`
       );
     }
   
