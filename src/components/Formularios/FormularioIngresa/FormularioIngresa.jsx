@@ -75,7 +75,7 @@ const FormularioIngresa = () => {
     } else {
       try {
         const response = await axios.post(
-          `https://las-casitas-del-hornero-back-deploy.up.railway.app/user`,
+          `https://casitasdelhornero.onrender.com/user`,
           usuario
         );
 
