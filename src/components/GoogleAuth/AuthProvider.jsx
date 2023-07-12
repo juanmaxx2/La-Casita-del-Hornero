@@ -52,7 +52,6 @@ const AuthProvider = ({
             });
           } catch (error) {
             //Si exite en la base de datos de firebase, pero no exite en la base de datos de la casita del horenro, crea el usuario
-            console.log(error);
             if (error.response.data.error === "Usuario bloqueado") {
               swal({
                 text: error.response.data.error,

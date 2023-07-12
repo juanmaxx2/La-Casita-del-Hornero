@@ -39,7 +39,6 @@ function Calendario({ id }) {
   };
 
   const SubirDisponibilidad = (idUser) => {
-    console.log(idUser, stateFecha.checkIn, stateFecha.checkOut);
     dispatch(GetTrolley(idUser, stateFecha.checkIn, stateFecha.checkOut));
   };
 

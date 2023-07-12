@@ -59,12 +59,10 @@ const OlvidasteLaPassword = () => {
       Error = translations[idioma].ErrorEmail;
     }
 
-    console.log(Error);
     return Error;
   };
 
   const OnchangeEmail = (event) => {
-    console.log(event.target.value);
     setStateInput(event.target.value);
     setErrors(ValidacionDelEmail(event.target.value));
   };

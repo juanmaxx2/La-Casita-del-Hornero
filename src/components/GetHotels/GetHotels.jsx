@@ -21,7 +21,6 @@ useEffect(()=>{
 },[dispatch])
 
 const FuncioBloquear = async (id_Hotel) => {
-console.log(id_Hotel)
      await axios.put(
         `https://casitasdelhornero.onrender.com/hotels/status/${id_Hotel}`
        );

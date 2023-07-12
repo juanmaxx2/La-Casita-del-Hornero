@@ -90,7 +90,6 @@ const RestablecerContraseña = () => {
 
   //*----------------------Cambios de estados:
   const OnchangePassword = (event) => {
-    console.log(event.target);
     const propery = event.target.name;
     const value = event.target.value;
 
@@ -126,8 +125,6 @@ const RestablecerContraseña = () => {
         // Aca voy hacer el axios.put(para actualizar las contraseñas)
         const email = PedirEmailLocalStorage();
         const { password } = statePassword;
-
-        console.log(email, password);
 
         await axios.put(
           `https://casitasdelhornero.onrender.com/user/password`,

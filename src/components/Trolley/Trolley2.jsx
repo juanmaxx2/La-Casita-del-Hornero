@@ -110,9 +110,6 @@ const Trolleys = ({ setCountCarrito, countCarrito }) => {
       const newAmount =
         value === "up" ? ObjetoTrolley.amount + 1 : ObjetoTrolley.amount - 1;
       const newPrice = PrecioBase * newAmount;
-      console.log(newPrice);
-
-      console.log(TotalPrecio);
     }
   };
 

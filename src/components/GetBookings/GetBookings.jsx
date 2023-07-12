@@ -10,7 +10,6 @@ const GetBookings = () =>{
     const [loading,setLoading] = useState(false)
     const dispatch = useDispatch()
     const {BookingsAdmin} = useSelector(state=>state)
-    console.log(BookingsAdmin)
 
     useEffect(()=>{
         if(!loading){

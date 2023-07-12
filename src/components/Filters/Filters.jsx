@@ -122,7 +122,6 @@ const Filter = () => {
     });
   };
 
-  console.log(stateFilter);
   //*----------------------------------------------------------*//
 
   const onChangeProvinces = async (event) => {
