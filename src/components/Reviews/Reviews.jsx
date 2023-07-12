@@ -24,7 +24,7 @@ export default function Reviews() {
   const theme = useSelector((state) => state.theme);
   const style = theme === "light"?styleLight:styleDark;
 
-  const URL_BASE = "https://las-casitas-del-hornero-back-deploy.up.railway.app";
+  const URL_BASE = "https://casitasdelhornero.onrender.com";
 
   const idioma = useSelector((state) => state.idioma);
 
