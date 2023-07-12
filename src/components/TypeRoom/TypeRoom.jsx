@@ -17,7 +17,7 @@ import { v4 as uuidv4 } from "uuid";
 
 //?----------------- COMPONENTE ROOM TYPE  ------------------------------------
 const TypeRoom = ({ id, Trolleys }) => {
-  const URL_BASE = "https://las-casitas-del-hornero-back-deploy.up.railway.app";
+  const URL_BASE = "https://casitasdelhornero.onrender.com";
   const User = PedirLocalStorage();
   const check = PedirCheckInCheckOut();
   const dispatch = useDispatch();
