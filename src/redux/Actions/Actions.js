@@ -47,7 +47,7 @@ import swal from "sweetalert";
 //?----------------- ACTIONS ------------------------------------
 
 //* ----------------- GET ALL HOTELS ------------------------------------
-const URL_BASE = "https://casitasdelhornero.onrender.com/";
+const URL_BASE = "https://casitasdelhornero.onrender.com";
 export const FuncionSelectFilter = (filters) => {
   let URL = `${URL_BASE}/hotels`;
   const {
