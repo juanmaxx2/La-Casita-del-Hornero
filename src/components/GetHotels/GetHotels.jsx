@@ -23,7 +23,7 @@ useEffect(()=>{
 const FuncioBloquear = async (id_Hotel) => {
 console.log(id_Hotel)
      await axios.put(
-        `https://las-casitas-del-hornero-back-deploy.up.railway.app/hotels/status/${id_Hotel}`
+        `https://casitasdelhornero.onrender.com/hotels/status/${id_Hotel}`
        );
     await dispatch(getHotelsAdmin(user.id))
 }
